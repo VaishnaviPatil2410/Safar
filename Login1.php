@@ -11,7 +11,7 @@ $zip = $_POST['zip'];
 
 if(!empty($email)|| !empty($password) || !empty($address) || !empty($mobile) || 
 !empty($city) || !empty($state) || !empty($zip)){
-    $host = 'localhost';
+    $host = '127.0.0.1';
     $dbUsername = 'root';
     $dbPassword = 'root';
     $dbname = 'safar';
